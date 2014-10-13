@@ -1,0 +1,10 @@
+html {
+  background: url('binding_dark.png') repeat;
+}
+
+canvas#squares {
+  display: block;
+  margin: 0 auto;
+  padding: 16;
+  border: 1px solid #313131;
+}
