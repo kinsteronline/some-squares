@@ -19,7 +19,7 @@ Square.prototype.draw = function(context) {
   context.restore();
 };
 
-window.onload = function() {
+;(function() {
   var canvas = document.getElementById('squares');
   var ctx = canvas.getContext('2d');
 
@@ -50,5 +50,4 @@ window.onload = function() {
       square.draw(ctx);
     }
   }
-
-};
+}());
